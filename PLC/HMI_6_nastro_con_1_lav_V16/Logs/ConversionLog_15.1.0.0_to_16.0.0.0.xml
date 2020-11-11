@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="HMI_6_nastro_con_1_lav" typeText="Tipo" messageText="Messaggio" timeText="Ora">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="06/11/2020 08:24:20">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento avviato" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="06/11/2020 08:24:26" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="06/11/2020 08:24:28">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="06/11/2020 08:24:38" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="06/11/2020 08:24:38">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="06/11/2020 08:24:39" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Error" Timestamp="06/11/2020 08:24:40">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento non riuscito.&#xA;&#xA;Per maggiori informazioni vedere il file di protocollo. Se non si dovesse più riuscire ad eseguire l'aggiornamento rivolgersi al Customer Support di Siemens." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="06/11/2020 08:24:40" Debug="false">
+    <Text>Generata eccezione di tipo 'Siemens.Automation.ObjectFrame.CancelOperationException'.
+   in Siemens.Automation.ObjectFrame.Conversion.ConversionProcess.BeginPhase(ICascadedProgress cascadedProgress, String captionResourceId, Int32 percentage)
+   in Siemens.Automation.ObjectFrame.Conversion.ConversionProcess.OpenProject(IConversionHandler conversionHandler, ICascadedProgress cascadedProgress)
+   in Siemens.Automation.ObjectFrame.Conversion.ConversionProcess.RepairAndUpgradeMeta(IConversionHandler conversionHandler, ICascadedProgress cascadedProgress)
+   in Siemens.Automation.ObjectFrame.Conversion.ConversionProcess.Run()</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectFailed" MessageClass="Error" Timestamp="06/11/2020 08:24:40">
+    <Number ServiceNumber="80" MessageNumber="33" />
+    <Text FeedbackText="Impossibile aggiornare il progetto 'C:\Users\Genovese\Desktop\GitHub\altro\Micro\PLC\HMI_6_nastro_con_1_lav\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+</LogFile>
